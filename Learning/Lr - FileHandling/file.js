@@ -28,6 +28,8 @@ const fs = require("fs");
 
 // console.log(fs.statSync('./testing.txt')); 
 
-fs.mkdirSync('./myfold')
+// fs.mkdirSync('./myfold')
 
-fs.
+const os = require('os');
+
+console.log(os.cpus().length);
