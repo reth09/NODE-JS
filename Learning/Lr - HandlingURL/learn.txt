@@ -1,0 +1,13 @@
+What is URL
+~ full form - Uniform Resource Locator
+
+"https:www.rudrapatel.dev/"
+HTTPS is a protocol
+Hypertext transfer protocol secure
+
+the second part is DOMAIN www.rudrapatel.dev
+thats a user friendly name of ip address of my server
+
+and the last part is "/" which is called path or root path
+
+~Query Parameters - rudrapatel.dev/about?userId=1&a=2
