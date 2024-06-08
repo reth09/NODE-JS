@@ -1,0 +1,24 @@
+RESTFULL API
+
+-it basically got some rules.
+- so basically there are some standards that we should follow that are consider as good practices.
+
+1. server and architecture
+    - if our client is a browser will always send html to render the site.
+        - res.send();
+        - res.render();
+        - its SSR - SERVER SITE RENDERING 
+        - its faster than then the json formate CSR because it render the data directly it doesn't need to fetch it first.
+
+    - if our client is in a MERN stack form than will send data in JSON format.
+        - res.JSON();
+        - its CSR - CLIENT SITE RENDERING 
+        - its slower than SSR because it fetch the data first than render it with react or anything else 
+
+2. always respect all http methods.
+    - POST
+    - GET
+    - PUT
+    - PATCH
+    - DELETE
+
