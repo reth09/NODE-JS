@@ -1,0 +1,13 @@
+"express" : "^4.20.2"
+
+~ there are 3 parts of versioning.
+
+1. "4" - this is major release its like a breaking release too like an example if i code a app on the 4 version and if the 5 updates releases and i update it. it might break my old code and it might not work so i have to recode it.
+
+2. "20" - thi is a Recommended update (Bug fix / security fix)
+
+3. "2" - (last part) it means minor fixes and it is optional updates
+
+4. "^" - Install all recommneded and minor fixes automatically
+
+5. "~" - Install only Minor fixes automatically (the last part).
