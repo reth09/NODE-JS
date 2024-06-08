@@ -1,0 +1,7 @@
+Http methods 
+
+~ GET - When you want to get some data from the server
+~ POST - When you want to add and mutate some data in the server
+~ PUT - when you want to put some data on your server
+~ PATCH - when you want to edit or change some data in your server
+~ DELETE - when you want to delete some data in your server
