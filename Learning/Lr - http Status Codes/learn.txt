@@ -1,0 +1,12 @@
+Status Codes - (e.g - 404 NOT FOUND)
+
+~ HTTP response status codes indicate whether a specific HTTP request has been succesfully completed. response are grouped in five classes.
+
+1. informational responses (100 - 199).
+2. successful response (200 - 299).
+3. Redirection response (300 - 399).
+3. client error response (400 - 499).
+3. server error response (500 - 599).
+
+~~
+status codes can be sent by `res.status(100 - 599)`

@@ -1,0 +1,12 @@
+HTTP HEARDER
+
+~ HTTP headers are an important part of the API request and response as they represent the meta-data associated with the API request and response.
+
+~ Headers carry information for the request and response body.
+
+app.get("/api/users", (req, res) => {
+    res.setHeader("X-myName", "Reth ROn"); // custom Headers
+    //Always add X to custom Headers
+})
+
+all headers list - https://flaviocopes.com/http-request-headers/
